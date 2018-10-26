@@ -14,3 +14,7 @@ def print_lenth(arg,*var): #variable_length function argument
     for v in var:
         print(v)
 print_lenth(10,20,30)
+###################################################
+
+subtraction = lambda x , y : y - x
+print('total:',subtraction(20,40))
