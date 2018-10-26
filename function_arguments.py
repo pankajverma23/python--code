@@ -15,6 +15,17 @@ def print_lenth(arg,*var): #variable_length function argument
         print(v)
 print_lenth(10,20,30)
 ###################################################
-
+##anonymous
 subtraction = lambda x , y : y - x
 print('total:',subtraction(20,40))
+
+###############################################
+#return sattement
+
+def summ(a,b):
+    total = a+b
+    print('inside output:',total)
+    return total
+total = summ(10,50)
+print('outside output:',total)
+
